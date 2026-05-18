@@ -73,6 +73,7 @@ def entrenar_modelos(df):
 # SIDEBAR
 # =============================================================================
 with st.sidebar:
+    st.image("logo_san fernando.png", use_container_width=True)
     st.markdown(f"## 🏫 Morosidad Escolar")
     st.markdown("**Colegio San Fernando**")
     st.divider()
